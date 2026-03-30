@@ -8,3 +8,4 @@ function firstUnique(string1:string):string{
     return "";
 }
 console.log(firstUnique("ccbbbddbdbdbbvfgn"));
+console.log(firstUnique("abababababababababababababhghghgf"));

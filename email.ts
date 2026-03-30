@@ -7,3 +7,5 @@ function validEmail(email:string):boolean{
     return false;
 }
 console.log(validEmail("sreyadevarapalli@gamil.com"));
+console.log(validEmail("123456gmailcom"));
+console.log(validEmail("4565348@gmailcom"));
