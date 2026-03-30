@@ -1,9 +1,8 @@
 function longest(Sentence:string):string{
-    let words=Sentence.split(" ");
+    let words=Sentence.length(" ");
     let longest="";
     for(let word of words){
         if(word.length>longest.length){
-            longest=word;
         }
     }
     return longest;
